@@ -41,6 +41,19 @@ body.darkmode .caja__contenido span {
 body.darkmode .caja__contenido a {
   color: rgba(255, 255, 255, 0.7);
 }
+body.darkmode .perfil {
+  color: #8841DA;
+  background-color: #FFFFFF;
+}
+body.darkmode .perfil__avatar {
+  border-radius: 35px;
+}
+body.darkmode .perfil__boton {
+  background-color: #333333;
+}
+body.darkmode .perfil__titulo, body.darkmode .perfil__minibio h3, .perfil__minibio body.darkmode h3 {
+  color: rgba(63, 87, 154, 0.5);
+}
 
 main {
   display: flex;
@@ -117,7 +130,7 @@ main {
   width: 100px;
   height: 40px;
   margin: 15px auto;
-  padding-top: 15px;
+  padding-top: 6px;
   border-radius: 20px;
   text-decoration: none;
   text-align: center;

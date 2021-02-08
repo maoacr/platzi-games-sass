@@ -45,6 +45,19 @@ $dark-mode: false;
 		a{
 			color: get-opacity($color-claro, 70%);
 		}
+	}
+	.perfil {
+		color: $color-secundario;
+		background-color:$color-claro;
+		&__avatar {
+			border-radius: 35px;
+		}
+		&__boton {
+			background-color: $color-primario
+		}
+		&__titulo {
+			color: get-opacity($color-variacion, .50);
+		}
 	}	
 }
 
